@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Қыз ұзату</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lora', serif;
+            background: linear-gradient(to bottom, #ffffff, #e0e7f9);
+            color: #2d2d70;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        video {
+            width: 90%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .details {
+            margin-top: 20px;
+        }
+        .details a {
+            color: #2d2d70;
+            text-decoration: underline;
+            font-size: 16px;
+        }
+        .details a:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Заголовок -->
+    <h1>Аяжан қыз ұзату</h1>
+    <p>25 июля 2025 года</p>
+
+    <!-- Видео -->
+    <video controls autoplay muted>
+        <source src="your-video-url.mp4" type="video/mp4">
+        Ваш браузер не поддерживает видео. Пожалуйста, обновите его.
+    </video>
+
+    <!-- Детали -->
+    <div class="details">
+        <p>Место проведения: <strong>Ресторан Алтын ғасыр</strong></p>
+        <a href="https://go.2gis.com/" target="_blank">Открыть в 2ГИС</a>
+        <p>Той иелері: Биемпет пен Гүлжан</p>
+        <p>Контакты: Гүлжан – <a href="tel:+87757494555">+87757494555</a>, Аяжан – <a href="tel:+87784396054">+87784396054</a></p>
+    </div>
+</body>
+</html>
